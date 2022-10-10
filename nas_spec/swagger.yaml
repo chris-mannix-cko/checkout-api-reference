@@ -94,7 +94,10 @@ tags:
     description: Transfer funds while managing the entities to transfer money to recoup funds from a seller, return money from a refund or to make up the difference when running a promotion.
   - name: Balances
     description: View balances for currency accounts belonging to an entity.
-
+  - name: Cardholders
+    description: Issue and manage cardholders
+  - name: Cards
+    description: Issue and manage payment cards for your business
   # - name: Files
   #   description: |
   #     Upload files to be used as input to other APIs
@@ -128,6 +131,10 @@ x-tagGroups:
   - name: Platforms
     tags:
       - Platforms
+  - name: Issuing
+    tags:
+      - Cardholders
+      - Cards
   - name: Reporting
     tags:
       - Reports
