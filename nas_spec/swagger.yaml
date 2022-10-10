@@ -95,7 +95,7 @@ tags:
   - name: Balances
     description: View balances for currency accounts belonging to an entity.
   - name: Cardholders
-    description: Issue and manage cardholders
+    description: Create and onboard cardholders
   - name: Cards
     description: Issue and manage payment cards for your business
   # - name: Files
