@@ -34,10 +34,9 @@ properties:
     description: The current status of the dispute
     enum:
       [
-          predispute_received,
-          predispute_accepted,
-          predispute_declined,
-          predispute_resolved,
+          pre_dispute_received,
+          pre_dispute_accepted,
+          pre_dispute_declined,
           evidence_required,
           evidence_under_review,
           resolved,

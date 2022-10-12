@@ -6,7 +6,7 @@ post:
         - disputes
         - disputes:decline
     - ApiSecretKey: [ ]
-  summary: Decline pre-dispute
+  summary: Decline dispute
   operationId: declineDispute
   description: >-
     If a pre-dispute is legitimate, you can choose to decline it. This will close it
