@@ -94,6 +94,8 @@ tags:
     description: Transfer funds while managing the entities to transfer money to recoup funds from a seller, return money from a refund or to make up the difference when running a promotion.
   - name: Balances
     description: View balances for currency accounts belonging to an entity.
+  - name: Preprocessing
+    description: Fetch information that are required prior to making a payment.
 
   # - name: Files
   #   description: |
@@ -112,6 +114,7 @@ x-tagGroups:
       - Apple Pay
       - Transfers
       - Balances
+      - Preprocessing
   - name: Stored payment details
     tags:
       - Tokens

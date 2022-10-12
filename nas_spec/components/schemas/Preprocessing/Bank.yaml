@@ -1,0 +1,18 @@
+type: object
+properties:
+  bank_id:
+    type: string
+    description: The ID of the bank
+    example: "rbs"
+  name:
+    type: string
+    description: The name of the bank
+    example: "RBS"
+  logo_uri:
+    type: string
+    description: URL of the bank logo
+    example: 'https://assets.checkout.com/docs/logos/logo-checkout-api-dark.svg'
+  icon_uri:
+    type: string
+    description: URL of the bank icon
+    example: 'https://assets.checkout.com/docs/logos/logo-checkout-api-dark.svg'
