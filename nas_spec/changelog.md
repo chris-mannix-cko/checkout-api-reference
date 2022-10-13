@@ -2,6 +2,7 @@
 
 | Date       | Description of change
 | ---------- | ----------------------------------------------------------------------------------------------------------------------|
+| 2022/10/13 | Added the `3ds.allow_upgrade` to payment requests & `3ds.upgrade_reason` to the 202 accepted & GET endpoint responses |
 | 2022/10/11 | Add Tamara NAS Request and Response source.                                                                           | 
 | 2022/09/29 | Added new GET Payments endpoint                                                                                       |
 | 2022/09/27 | Adding a `customer` to PaymentRequest as a source.                                                                    |
