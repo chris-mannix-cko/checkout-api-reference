@@ -5,7 +5,7 @@ allOf:
   - type: object
     properties:
       instrument_details:
-        description: Details of the payment instrument being created. The information required is dependent on the details of the instrument being created.
+        description: Details of the payment instrument being created.
         oneOf:
           - $ref: '#/components/schemas/PlatformsInstrumentDetailsFasterPayments'
           - $ref: '#/components/schemas/PlatformsInstrumentDetailsSepa'
