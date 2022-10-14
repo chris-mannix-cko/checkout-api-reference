@@ -1,0 +1,8 @@
+type: string
+title: Status
+description: The status of your sub-entity's payment instrument, which indicates what stage of verification it's at and whether it's able to be used for payouts.
+example: verified
+enum:
+  - pending
+  - verified
+  - verification_failed

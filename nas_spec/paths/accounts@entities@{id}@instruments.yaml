@@ -9,7 +9,8 @@ parameters:
     schema:
       type: string
 post:
-  description: Create a bank account payment instrument for your sub-entity that you can later use as the destination for their payouts.
+  deprecated: true
+  description: Deprecated in favour of the payment instrument operations at `/payment-instruments`, which offer immediate feedback on whether the instrument was created successfully or not. Create a bank account payment instrument for your sub-entity that you can later use as the destination for their payouts.
   summary: Add a payment instrument
   operationId: addAPaymentInstrument
   requestBody:
