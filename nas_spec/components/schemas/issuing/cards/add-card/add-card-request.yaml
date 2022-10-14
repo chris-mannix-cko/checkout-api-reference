@@ -19,3 +19,5 @@ properties:
     $ref: '#/components/schemas/CardLifetime'
   reference:
     $ref: '#/components/schemas/IssuingReference'
+  card_product_id:
+    $ref: '#/components/schemas/IssuingCardProductId'
