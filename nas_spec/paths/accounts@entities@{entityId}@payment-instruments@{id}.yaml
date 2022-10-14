@@ -18,7 +18,7 @@ parameters:
     schema:
       type: string
 get:
-  description: Retrieve the details of a specific payment instrument, including the Instrument ID, used for making ad-hoc Payouts to your sub-entities.
+  description: Retrieve the details of a specific payment instrument, including the Instrument ID, used for making on-demand Payouts to your sub-entities.
   summary: Get a payment instrument
   operationId: getPlatformsPaymentInstrument
 
