@@ -5,4 +5,4 @@ example: verified
 enum:
   - pending
   - verified
-  - verification_failed
+  - unverified
