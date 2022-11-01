@@ -1,7 +1,7 @@
 parameters:
   - in: path
     name: id
-    description: The ID of the sub-entity.
+    description: The sub-entity's ID.
     required: true
     allowEmptyValue: false
     example: ent_w4jelhppmfiufdnatam37wrfc4
@@ -9,7 +9,7 @@ parameters:
     schema:
       type: string
 post:
-  description: Create a bank account payment instrument for your sub-entity that you can later use as the destination for their payouts.
+  description: Create a bank account payment instrument for your sub-entity. You can use this payment instrument as a payout destination.
   summary: Add a payment instrument
   operationId: addPlatformsPaymentInstrument
   requestBody:
@@ -85,7 +85,7 @@ post:
   tags: [ Platforms ]
 
 get:
-  description: Fetch all of the payment instruments for a sub-entity. Can be filtered by `status` to allow easy identification of `verified` instruments that are ready to be used for Payouts.
+  description: Fetch all of the payment instruments for a sub-entity. You can filter by `status` to identify `verified` instruments that are ready to be used for Payouts.
   summary: Query payment instruments
   operationId: queryPlatformsPaymentInstruments
 

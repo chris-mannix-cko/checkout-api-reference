@@ -12,7 +12,7 @@ allOf:
       instrument_id:
         type: string
         title: Status
-        description: The Instrument ID for this payment instrument. Only available once the instrument status is `verified`.
+        description: The payment instrument's ID. Only available once the instrument status is `verified`.
         example: src_wmlfc3zyhqzehihu7giusaaawu
   - $ref: '#/components/schemas/PlatformsPaymentInstrument'
   - type: object

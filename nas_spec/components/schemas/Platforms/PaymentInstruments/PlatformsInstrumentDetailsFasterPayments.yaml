@@ -3,11 +3,11 @@ title: InstrumentDetailsFasterPayments
 properties:
   account_number:
     title: Account number
-    description: Number (which can contain letters) that identifies the account.
+    description: The alphanumeric value that identifies the account
     type: string
     example: '13654567455'
   bank_code:
     title: Bank code
-    description: Code that identifies the bank.
+    description: The code that identifies the bank
     type: string
     example: '123-456'

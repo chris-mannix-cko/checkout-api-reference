@@ -1,7 +1,7 @@
 parameters:
   - in: path
     name: entityId
-    description: The ID of the sub-entity.
+    description: The sub-entity's ID.
     required: true
     allowEmptyValue: false
     example: ent_w4jelhppmfiufdnatam37wrfc4
@@ -10,7 +10,7 @@ parameters:
       type: string
   - in: path
     name: id
-    description: The ID of the payment instrument.
+    description: The payment instrument's ID.
     required: true
     allowEmptyValue: false
     example: ppi_qn4nis4k3ykpzzu7cvtuvhqqga
@@ -18,7 +18,7 @@ parameters:
     schema:
       type: string
 get:
-  description: Retrieve the details of a specific payment instrument, including the Instrument ID, used for making on-demand Payouts to your sub-entities.
+  description: Retrieve the details of a specific payment instrument used for sub-entity payouts.
   summary: Get payment instrument details
   operationId: getPlatformsPaymentInstrument
 
