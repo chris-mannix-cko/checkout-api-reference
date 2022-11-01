@@ -58,13 +58,11 @@ post:
       content:
         application/json:
           schema:
+            type: object
             properties:
               id:
                 type: string
                 example: ppi_qn4nis4k3ykpzzu7cvtuvhqqga
-          examples:
-            success:
-              id: ppi_qn4nis4k3ykpzzu7cvtuvhqqga
     '400':
       description: Bad Request
     '401':
